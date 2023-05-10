@@ -1,0 +1,71 @@
+:root {
+    --green:#00ff00;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+* {
+    font-family: helvetica;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    align-items: left;
+    height: 100vh;
+}
+
+ul {
+    font-family: helvética; 
+}
+    
+.list {   
+    list-style: square;  
+
+    font-size: 1.3em;
+    margin: .5em 0 0 0;
+}
+    
+.light-theme {
+    color: var(--black);
+    background: var(--green);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    background: var(--black);
+    color: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+
+    position: absolute;
+    top: 1em;
+    left: 24em;
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+.titulo {
+    margin-left: .7em;
+    font-size: 2.5em;
+    margin-top: 2em;
+}
+
+.descricao {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
