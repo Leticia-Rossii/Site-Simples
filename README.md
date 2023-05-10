@@ -7,7 +7,7 @@
 ##
 Acesse o curso neste [Link](https://www.ev.org.br/)📝
 ##
-Clique [Aqui](https://alura-book-mocha-three.vercel.app/) para visitar o projeto pronto!! 👌 ✨
+Clique [Aqui](https://site-simples-gamma.vercel.app/) para visitar o projeto pronto!! 👌 ✨
 ##
   
 <h3> O projeto conta com somente uma tela demonstrativa com a interação de troca de tema ao clicar no botão 📱</h3>
